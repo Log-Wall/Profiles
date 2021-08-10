@@ -1,0 +1,11 @@
+
+
+      controlCharacter: -
+      defaultCharacter: Khaseem
+      defaultGame     : Achaea
+      
+      wrapLimit       : 0
+      showTimestamp   : true
+      echoInput       : true
+      outputLimit     : 1800
+    
