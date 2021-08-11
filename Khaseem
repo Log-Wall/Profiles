@@ -51,7 +51,9 @@
             "name": "Unnamed Alias",
             "type": "alias",
             "id": "QO-aaywrg",
-            "patterns": [],
+            "patterns": [
+              "^login$"
+            ],
             "output": "Core.send('Khaseem');"
           }
         ]
