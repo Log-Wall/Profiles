@@ -27,7 +27,7 @@
         "type": "folder",
         "id": "QO-1mn29y",
         "desc": "",
-        "is_open": false,
+        "is_open": true,
         "children": [
           {
             "name": "`js, Execute Javascript",
@@ -46,6 +46,13 @@
             ],
             "output": " Triggers.ignore(true)\n var url = matches[1]\n sub({\n   method: 'inline-substitution',\n   target: url,\n   output: '<a href=\"' + url + '\" target=\"_blank\">' + url + '</a>'\n })",
             "id": "QO-l1za3h"
+          },
+          {
+            "name": "Unnamed Alias",
+            "type": "alias",
+            "id": "QO-aaywrg",
+            "patterns": [],
+            "output": "Core.send('Khaseem');"
           }
         ]
       },
@@ -114,7 +121,7 @@
         "type": "folder",
         "id": "QO-nc69of",
         "desc": "",
-        "is_open": true,
+        "is_open": false,
         "output": "/*\n  trigger management\n  >> `tr .* to display triggers (using a search term, if desired)\n  \n */",
         "children": [
           {
@@ -156,7 +163,7 @@
     "type": "folder",
     "id": "QO-kkt7eh",
     "desc": "",
-    "is_open": false,
+    "is_open": true,
     "children": [
       {
         "name": "player._init",
@@ -201,7 +208,7 @@
     "type": "folder",
     "id": "QO-ttkwt1",
     "desc": "",
-    "is_open": false,
+    "is_open": true,
     "children": [
       {
         "name": "pdb",
@@ -273,7 +280,7 @@
     "type": "folder",
     "id": "QO-rqobz9",
     "desc": "",
-    "is_open": false,
+    "is_open": true,
     "output": "/*\n  \n  Requires \"player\", \"pdb\" module\n  \n */",
     "children": [
       {
@@ -407,7 +414,7 @@
         "type": "folder",
         "id": "QO-zzpt84",
         "desc": "",
-        "is_open": true,
+        "is_open": false,
         "children": [
           {
             "name": "affliction+",
@@ -911,7 +918,7 @@
     "type": "folder",
     "id": "QO-48xl1h",
     "desc": "",
-    "is_open": false,
+    "is_open": true,
     "output": "/*\n\n Events\n  bash-draw\n  bash-undraw\n  bash-update-display\n  \n */",
     "children": [
       {
